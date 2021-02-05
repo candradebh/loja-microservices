@@ -1,0 +1,24 @@
+[submodule "loja"]
+	path = loja
+	url = https://github.com/candradebh/loja.git
+[submodule "fornecedor"]
+	path = fornecedor
+	url = https://github.com/candradebh/fornecedor.git
+[submodule "transportador"]
+	path = transportador
+	url = https://github.com/candradebh/transportador.git
+[submodule "zuul"]
+	path = zuul
+	url = https://github.com/candradebh/zuul.git
+[submodule "auth"]
+	path = auth
+	url = https://github.com/candradebh/auth.git
+[submodule "config-server"]
+	path = config-server
+	url = https://github.com/candradebh/config-server.git
+[submodule "eureka-server"]
+	path = eureka-server
+	url = https://github.com/candradebh/eureka-server.git
+[submodule "microservices-repo"]
+	path = microservices-repo
+	url = https://github.com/candradebh/microservices-repo.git
