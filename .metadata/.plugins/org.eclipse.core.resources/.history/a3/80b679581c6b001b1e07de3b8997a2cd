@@ -1,0 +1,65 @@
+package br.com.alura.microservice.auth;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.jdbc.JdbcDaoImpl;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.factory.PasswordEncoderFactories;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+
+
+@Configuration
+public class WebSecutiryConfigurer extends WebSecurityConfigurerAdapter {
+	
+	private final DataSource dataSource;
+
+    private PasswordEncoder passwordEncoder;
+    private UserDetailsService userDetailsService;
+    
+	@Override
+	@Bean
+	protected AuthenticationManager authenticationManager() throws Exception {
+		return super.authenticationManager();
+	}
+
+	@Override
+	@Bean
+	protected UserDetailsService userDetailsService() {
+		//return super.userDetailsService();
+		if (userDetailsService == null) {
+            userDetailsService = new JdbcDaoImpl();
+            ((JdbcDaoImpl) userDetailsService).setDataSource(dataSource);
+        }
+        return userDetailsService;
+	}
+
+	@Bean
+	public PasswordEncoder passwordEncoder() {
+		//return new BCryptPasswordEncoder();
+		if (passwordEncoder == null) {
+            passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
+        }
+        return passwordEncoder;
+	}
+
+	@Override
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+		auth.inMemoryAuthentication().passwordEncoder(passwordEncoder()).withUser("joao")
+				.password(passwordEncoder().encode("joaopwd")).roles("USER");
+	}
+
+	
+	  
+	 
+
+}

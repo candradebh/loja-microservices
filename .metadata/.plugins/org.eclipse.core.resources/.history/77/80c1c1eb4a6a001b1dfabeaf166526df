@@ -1,0 +1,5 @@
+package br.com.alura.microservice.auth.model;
+
+public class Perfil {
+
+}
