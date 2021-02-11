@@ -1,5 +1,4 @@
 INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclipse.jdt.core
-3403137722.index
 1356438332.index
 164189798.index
 2903114710.index
@@ -24,7 +23,6 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 2608101729.index
 2707149421.index
 4242540558.index
-641392586.index
 49359231.index
 593695474.index
 1923547913.index
@@ -39,7 +37,6 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 686926769.index
 655491298.index
 108980277.index
-1331459043.index
 499041132.index
 4108908399.index
 272807760.index
@@ -49,8 +46,6 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 2009992067.index
 3699208478.index
 3647863671.index
-2559892732.index
-464570946.index
 89350591.index
 900759648.index
 1188130271.index
@@ -76,7 +71,6 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 105673164.index
 532498051.index
 2192104569.index
-3022230777.index
 4254370891.index
 1713332225.index
 434780414.index
@@ -137,7 +131,6 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 3762650527.index
 2031724944.index
 4042852430.index
-3423957342.index
 769398222.index
 1441888171.index
 3094030006.index
@@ -146,21 +139,18 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 791969925.index
 1150655060.index
 46740044.index
-2070730065.index
 920752116.index
+2070730065.index
 3295432667.index
 2603511002.index
 1357182049.index
 108771627.index
-2344769636.index
 1598176665.index
 30033470.index
 75736873.index
-1719496796.index
 3008094564.index
 4129255244.index
 3514723500.index
-329176834.index
 2540613858.index
 785115737.index
 2227786841.index
@@ -176,7 +166,6 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 4172488446.index
 3223629647.index
 113544824.index
-72975911.index
 3191235556.index
 1019091930.index
 4210645405.index
@@ -188,7 +177,6 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 2912212803.index
 1687967951.index
 483966528.index
-34743345.index
 1029511460.index
 1105049077.index
 2067111764.index
@@ -214,9 +202,8 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 3033701914.index
 2411200825.index
 3927963097.index
-1499710606.index
-4062149534.index
 3847267644.index
+4062149534.index
 3890964253.index
 2795265832.index
 3581805561.index
@@ -226,12 +213,9 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 3180718115.index
 122321348.index
 2165671100.index
-333462621.index
 1631307589.index
 2883501797.index
 1505818813.index
-928148844.index
-2514054340.index
 4261002064.index
 3706327461.index
 414759181.index
@@ -244,7 +228,6 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 3407090787.index
 60599358.index
 1453688064.index
-4088759382.index
 998798544.index
 2278009603.index
 2661293508.index
@@ -255,7 +238,6 @@ INDEX VERSION 1.131+D:\www\java\loja-microservices\.metadata\.plugins\org.eclips
 3712730588.index
 1824001630.index
 4241027736.index
-2933743644.index
 623593306.index
 3698777826.index
 2613830114.index
